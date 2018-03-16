@@ -11,9 +11,9 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.dashboard')
-      .assert.containsText('h1', 'Welcome to your truffle-vue dApp')
-      .assert.elementCount('img', 1)
+      .assert.elementPresent('#todo')
+      .assert.containsText('h1', 'ToDo')
+      .assert.elementCount('h1', 1)
       .end()
   }
 }

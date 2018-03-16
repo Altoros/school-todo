@@ -1,2 +1,4 @@
 dist
 test/e2e/reports
+test/unit/coverage
+*.log
